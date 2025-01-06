@@ -1,0 +1,79 @@
+.container {
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7rem;
+    padding-right: 7rem; 
+}
+
+.dark-background {
+    background-color: #191919;
+}
+
+.content-box {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    background-color: #252525;
+    border-radius: 5px;
+}
+
+.white-text {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.my-name {
+    font-size: 50px;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+hr {
+    color: #d4d4d4;
+}
+
+body {
+    background-color: #191919;
+}
+
+button {
+    background-color: #252525;
+    border: none;
+    outline: 1px solid #414141;
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: .25rem; 
+    padding-bottom: .25rem;
+    cursor: crosshair;
+}
+
+button:hover {
+    background-color: #303030;
+}
+
+.dk-profile-img {
+    width: 100px;
+}
+
+.project-coverimg {
+    width: 100%;
+}
+
+.project-titlelink {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.social-icon {
+    float: right;
+}
