@@ -16,9 +16,9 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="position: fixed; top: 0; background-color: #191919; width: 100%; z-index: 1;">
         <div class="container-fluid">
-            <a class="navbar-brand white-text" href="./index.html">Dylan J Kerr</a>
+            <a class="navbar-brand white-text" href="./index.html" style="margin-left: 1rem;">Dylan J Kerr</a>
         </div>
     </nav>
 
@@ -27,20 +27,32 @@
         <div class="container">
             <h1 class="white-text my-name">Dylan J Kerr</h1>
             <div class="row">
-                <div class="col-2">
-                    <img src="./content/DK_CircleProfile.png" alt="Dylan Kerr Profile Image" class="dk-profile-img">
+                <div class="col-3">
+                    <img src="./assets/DK_PortfolioProfileImg.png" alt="Dylan Kerr Profile Image" class="dk-profile-img">
                 </div>
-                <div class="content-box col-10">
-                    <p class="white-text">Hello! I'm Dylan 👋🏼 A product designer simplifying complex challenges through innovative, user-centered solutions.</p>
-                    <button type="button" class="white-text">
-                        <i class="bi bi-link me-2"></i> CV
+                <div class="content-box col-9">
+                    <p class="white-text">Hello! I'm Dylan 👋🏻 A product designer simplifying complex challenges through innovative, user-centered solutions.</p>
+                    <!--CV button with link to PDF of resume-->
+                    <button class="white-text">
+                        <a target="_blank" style="text-decoration: none;" class="white-text" href="./assets/Resume1_DylanJKerr_2025.pdf">
+                            <i class="bi bi-link me-2"></i> CV
+                        </a>
                     </button>
                     <br>
-                    <button type="button" class="white-text">
-                        <i class="bi bi-chat-right-text-fill me-2"></i> Contact Me
+                    <!--Contact Me button with link to open email-->
+                    <button class="white-text">
+                        <a style="text-decoration: none;" class="white-text" href="mailto:dyljameskerr@gmail.com?subject=Viewed%20Your%20Portfolio%20-%20Let's%20Talk&body=Hi%20Dylan,">
+                            <i class="bi bi-chat-right-text-fill me-2"></i> Contact Me
+                        </a>
                     </button>
-                    <i class="bi bi-linkedin social-icon"></i>
-                    <i class="bi bi-instagram social-icon"></i>
+                    <!--LinkedIn Icon with link-->
+                    <a target="_blank" style="text-decoration: none;" class="white-text" href="https://www.linkedin.com/in/dylan-j-kerr/">
+                        <i class="bi bi-linkedin social-icon" style="margin-left: 1rem; font-size: x-large;"></i>
+                    </a>
+                    <!--Instagram Icon with link-->
+                    <a target="_blank" style="text-decoration: none;" class="white-text" href="https://www.instagram.com/dylanjkerrdesign/">
+                        <i class="bi bi-instagram social-icon" style="font-size: x-large;"></i>
+                    </a>
                 </div>
             </div>
             <br><br>
@@ -52,13 +64,13 @@
 
     <!-- Main Content -->
     <main class="container">
-        <h1 class="white-text"> Projects </h1>
-        <br>
+        <h1 class="section-title"> Projects </h1>
+        <br><br>
         <!--- Project 1 -->
         <div class="row">
             <div class="content-box">
                 <a href="https://www.example.com" target="_blank">
-                    <img src="./content/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
+                    <img src="./assets/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
                 </a>
                 <br><br>
                 <a href="https://www.example.com" target="_blank">
@@ -73,7 +85,7 @@
         <div class="row">
             <div class="content-box">
                 <a href="https://www.example.com" target="_blank">
-                    <img src="./content/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
+                    <img src="./assets/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
                 </a>
                 <br><br>
                 <a href="https://www.example.com" target="_blank">
@@ -88,7 +100,22 @@
             <div class="row">
                 <div class="content-box">
                     <a href="https://www.example.com" target="_blank">
-                        <img src="./content/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
+                        <img src="./assets/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
+                    </a>
+                    <br><br>
+                    <a href="https://www.example.com" target="_blank">
+                    <p class="project-titlelink"> <strong>Grocerguide Mobile App:</strong> Saving time & money at the grocery store.</p>        
+                    </a>
+                    <p class="white-text">A case study researching new methods of shopping for gorceries- bridging the gap between our smartphones and the stores we frequent.</p>
+                    <br>
+                </div>
+            </div>
+            <!--- Project 4 -->
+            <br><br>
+            <div class="row">
+                <div class="content-box">
+                    <a href="https://www.example.com" target="_blank">
+                        <img src="./assets/casestudy_grocerguide/grocerguide_coverimage.png" alt="grocerguide mobile app cover image" class="project-coverimg">
                     </a>
                     <br><br>
                     <a href="https://www.example.com" target="_blank">
@@ -99,13 +126,17 @@
                 </div>
             </div>
     </main>
-
-    <footer>
-        <div class="container">
-            
+    <br><br>
+    <footer class="container">
+        <div class="row">
+            <div class="content-box">
+                <button type="button" class="white-text" style="width:100%;">
+                    <i class="bi bi-link me-2"></i> CV
+                </button>
+            </div>
         </div>
     </footer>
-
+    <br><br>
     <!-- Footer with copyright, may or may not use
     <footer class="dark-background text-white text-center py-4">
         <div class="container">
