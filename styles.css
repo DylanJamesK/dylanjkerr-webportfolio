@@ -25,6 +25,15 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.bio-text {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 500;
+    font-size:large;
+    font-style:normal;
+}
+
 .section-title {
     color: #d4d4d4;
     font-family: "proxima-nova" , sans-serif;
@@ -33,14 +42,24 @@
     margin-top: 2rem;
 }
 
+.nav-logo{
+    width: 14px;
+    margin-right:.5rem;
+}
+
+.my-logo {
+    width: 37px;
+    margin-right: 1rem;
+}
+
 .my-name {
     color: #d4d4d4;
     font-family: "proxima-nova" , sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 55px;
-    margin-top: 10rem;
     margin-bottom: 5rem;
+    margin-top: 10rem;
 }
 
 hr {
@@ -62,23 +81,23 @@ button {
     padding-right: 1rem; 
     padding-top: .25rem; 
     padding-bottom: .25rem;
+    transition: 0.1s ease;
 }
 
 button:hover {
     background-color: #303030;
+    cursor:default;
 }
 
 .dk-profile-img {
     width: 100px;
-    /*
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    */
 }
 
 .project-coverimg {
     width: 100%;
     transition: 0.3s ease;
+    cursor:default;
+    border-radius: 5px;
 }
 
 .project-coverimg:hover {
@@ -93,11 +112,21 @@ button:hover {
     font-style: normal;
     font-size: x-large;
     text-decoration: underline;
+    cursor: default;
 }
 
 .social-icon {
     float: right;
+    transition: 0.1s ease;
 }
+
+.social-icon:hover {
+    color: white;
+}
+
+
+
+/* MEDIA QUIERIES */
 
 @media (min-width: 320px) { 
     /* Mobile phones */ 
@@ -105,8 +134,25 @@ button:hover {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    }
+    .dk-profile-img {
+        width: 100px;
+        margin-bottom: 2rem;
+    }
+    .my-name {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 45px;
+        margin-bottom: 3rem;
+        margin-top: 5rem;
+    }
+    .my-logo {
+        width: 30px;
+        margin-right: 1rem;
     }
 }
 
@@ -120,7 +166,20 @@ button:hover {
     padding-right: 1rem; 
     }
     .dk-profile-img {
-        width: 80px;
+        width: 90px;
+    }
+    .my-name {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 55px;
+        margin-bottom: 5rem;
+        margin-top: 10rem;
+    }
+    .my-logo {
+        width: 37px;
+        margin-right: 1rem;
     }
 }
 
@@ -169,4 +228,5 @@ button:hover {
     .dk-profile-img {
         width: 100px;
     }
+
 }
