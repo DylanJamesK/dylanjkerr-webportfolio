@@ -13,8 +13,8 @@
 .content-box {
     padding-left: 1.5rem;
     padding-right: 1.5rem; 
-    padding-top: 1rem; 
-    padding-bottom: 1rem;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem;
     background-color: #252525;
     border-radius: 5px;
 }
@@ -71,6 +71,32 @@
     margin-top: 10rem;
 }
 
+.projectpage-title {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+}
+.projectpage-subtitle {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 700;
+    font-style: large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.projectpage-sectiontitle {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: large;
+    margin-bottom: 2rem;
+}
+
 hr {
     color: #d4d4d4;
 }
@@ -85,7 +111,7 @@ button {
     border: none;
     outline: 1px solid #414141;
     border-radius: 5px;
-    margin: 5px;
+    margin: auto;
     padding-left: 1rem;
     padding-right: 1rem; 
     padding-top: .25rem; 
@@ -102,26 +128,53 @@ button:hover {
     width: 100px;
 }
 
-.project-coverimg {
+.project-coverimg-png {
     width: 100%;
     transition: 0.3s ease;
     cursor:default;
     border-radius: 5px;
 }
 
-.project-coverimg:hover {
-    filter: brightness(70%);
+.project-coverimg-png:hover {
     background-color:rgba(0, 0, 0, 0.3);
 }
 
+.project-coverimg-solid {
+    width: 100%;
+    transition: 0.3s ease;
+    cursor:default;
+    border-radius: 5px;
+}
+
+.project-coverimg-solid:hover {
+    filter: brightness(60%);
+}
+
+.img-fullwidth {
+    width: 100%;
+    cursor:default;
+    border-radius: 5px;
+}
+
 .project-titlelink {
+    color: #d4d4d4;
+    font-family: "proxima-nova" , sans-serif;
+    font-weight: 350;
+    font-size: x-large;
+    text-decoration:underline;
+    text-decoration-color: #414141;
+    cursor: default;
+    transition: 0.2s ease;
+}
+.project-titlelink:hover {
+    color: white;
+}
+
+.project-titledescription {
     color: #a1a1a1;
     font-family: "proxima-nova" , sans-serif;
     font-weight: 350;
-    font-style: normal;
-    font-size: x-large;
-    text-decoration: underline;
-    cursor: default;
+    font-size:large;
 }
 
 .social-icon {
@@ -156,12 +209,39 @@ button:hover {
         font-weight: 700;
         font-style: normal;
         font-size: 45px;
-        margin-bottom: 3rem;
-        margin-top: 5rem;
+        margin-bottom: 2rem;
+        margin-top: 7rem;
     }
     .my-logo {
         width: 30px;
         margin-right: 1rem;
+    }
+
+    .projectpage-title {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+    }
+    .projectpage-subtitle {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 700;
+        font-style: large;
+        font-size: 20px;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+    .projectpage-sectiontitle {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: large;
+        margin-bottom: 2rem;
     }
 }
 
@@ -189,6 +269,32 @@ button:hover {
     .my-logo {
         width: 37px;
         margin-right: 1rem;
+    }
+    .projectpage-title {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 55px;
+        margin-bottom: 2rem;
+        margin-top: 10rem;
+    }
+    .projectpage-subtitle {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 700;
+        font-style: large;
+        font-size: 30px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .projectpage-sectiontitle {
+        color: #d4d4d4;
+        font-family: "proxima-nova" , sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        font-style: large;
+        margin-bottom: 2rem;
     }
 }
 
