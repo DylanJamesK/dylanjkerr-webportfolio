@@ -121,7 +121,6 @@ button {
 
 button:hover {
     background-color: #303030;
-    cursor:default;
 }
 
 .dk-profile-img {
@@ -131,7 +130,6 @@ button:hover {
 .project-coverimg-png {
     width: 100%;
     transition: 0.3s ease;
-    cursor:default;
     border-radius: 5px;
 }
 
@@ -142,7 +140,6 @@ button:hover {
 .project-coverimg-solid {
     width: 100%;
     transition: 0.3s ease;
-    cursor:default;
     border-radius: 5px;
 }
 
@@ -152,7 +149,6 @@ button:hover {
 
 .img-fullwidth {
     width: 100%;
-    cursor:default;
     border-radius: 5px;
 }
 
@@ -163,7 +159,6 @@ button:hover {
     font-size: x-large;
     text-decoration:underline;
     text-decoration-color: #414141;
-    cursor: default;
     transition: 0.2s ease;
 }
 .project-titlelink:hover {
