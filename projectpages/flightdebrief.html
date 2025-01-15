@@ -33,7 +33,7 @@
                 <div class="content-box">
                     <h1 class="projectpage-sectiontitle"><i class="bi bi-person-bounding-box"></i>&emsp; Role & Responsibilities</h1>
                     <p class="bio-text">UX UI,  VR Dev -&emsp; Dylan Kerr</p>
-                    <p class="bio-text">Storyboarding, 3D modeling, Texture design, Motion design + Animation, Interface design, Ergonomics testing, and development in Unity.</p> 
+                    <p class="bio-text">Storyboarding, 3D modeling, Exploratory data analysis, Motion design + Animation, Interface design, Ergonomics testing, and HoloLens 2 development in Unity 3D.</p> 
                 </div>
             </div>
             <br><br>
@@ -48,9 +48,11 @@
            <!--BACKGROUND INFO-->
            <h1 class="projectpage-subtitle">Background Info</h1>
            <div class="row">
-                <p class="bio-text" style="color:#5a6af6"><strong>Fun fact:</strong> <a href="https://science.nasa.gov/moon/moon-water-and-ices/" style="text-decoration: underline; color:#5a6af6;">There is water on the Moon!</a></p>
-                <p class="bio-text">With speculations of water on the Moon dating all the way back to 1645 by Dutch astronomer Michael van Langren, an official confirmation was widely accepted more recently in 2018 using data from the Moon Mineralogy Mapper (M3), an instrument carried aboard ISRO's (Indian Space Research Organization) Chandrayaan-1.</p>
+                <p class="bio-text">The United States Air Force (USAF) follows a detailed process with every flight, where pilots and crew members conduct thorough pre-flight checks, execute their mission objectives, and then return to assess their performance. After each flight, a flight debriefing is held to review the mission, analyze the success and areas for improvement, and ensure that lessons are learned for future operations. During the debrief, flight data is reviewed, often using detailed video footage, flight path analysis, and performance metrics, to foster discussion and continuous improvement.</p>
+                <p class="bio-text">These debriefings are crucial for maintaining operational readiness and ensuring the highest standards of safety and efficiency in every mission. Unfortuntaely, the technology used in these processes are becoming outdated and inefficient compared to the tools of today.</p>
+                <p class="bio-text">The USAF hosts an annual competition, SparkTank, where bases nationwide pitch innovative solutions for implementation. Partnering with Luke Air Force Base, I developed a modern solution to revolutionize the outdated flight debriefing process.</p>
            </div>
+           <img src="../assets/project_flightdebrief/OldFashioned_Flight Debrief.png" alt="Artistic rendering of airmen using headsets to debrief in 3D" class="img-fullwidth"style="margin-bottom:2rem; border-radius: 5px;" >
            <br>
            <div class="row">
                <hr>
@@ -59,8 +61,9 @@
         <!--PROJECT OVERVIEW-->
 
         <h1 class="projectpage-subtitle">Project Overview</h1>
-        <p class="bio-text"><strong>The challenge:</strong> Design an innovative solution to support NASA’s exploration objectives for the Permanently Shadowed Regions (PSRs) in and near the Moon's polar regions.</p>
-        <p class="bio-text">Develop an immersive VR experience that effectively showcases our solution in a compelling and engaging manner.</p>
+        <p class="bio-text"><strong>The challenge:</strong> Flight debriefing is essential after every mission, yet traditional tools lack the 3D visualization needed for such a dynamic experience.</p>
+        <p class="bio-text"><strong>Our solution:</strong> Create a mixed reality application to visualize flight paths using real F-16 and geographical data, while retaining familiar legacy debrief annotations.</p>
+        <img src="../assets/project_flightdebrief/Art_render_DebriefTable.jpg" alt="Artistic rendering of airmen using headsets to debrief in 3D" class="img-fullwidth"style="margin-bottom:2rem;" >
         <div class="row">
             <div class="content-box">
                 <h1 class="projectpage-sectiontitle"><i class="bi bi-stopwatch"></i>&emsp; Timeline</h1>
@@ -75,21 +78,23 @@
         <!--HOW IT WORKS-->
 
         <h1 class="projectpage-subtitle">How It Works</h1>
-        <p class="bio-text">The Velos launcher offers a reliable spring-based mechanism, enables various sensor payloads, and is a scalable solution with the quantity of probes it can hold.</p>
-        <img src="../assets/project_velos/Velos_launcherAttached.png" alt="Velos launcher attached to lander" class="img-fullwidth"style="margin-bottom:2rem;" >
+        <p class="bio-text">In 2021, the Microsoft HoloLens 2 stood out as the leading mixed reality headset, offering advanced features like immersive holographic displays, hand tracking, and spatial mapping. We selected this device for its capability to render 3D models in a shared space across multiple headsets, enabled by Azure Spatial Anchors—a cloud-based technology that allows precise alignment and persistent placement of holograms in real-world environments.</p>
+        <img src="../assets/project_flightdebrief/HoloLens2.jpg" alt="Microsoft HoloLens 2 Mixed Reality Headset" class="img-fullwidth"style="margin-bottom:2rem;" >
 
         <div class="row" style="background-color:#252525; padding-left:1rem; padding-right:1rem; padding-top: 1.5rem;padding-bottom: 1.5rem; border-radius: 5px;">
-            <h1 class="projectpage-sectiontitle"><i class="bi bi-gear-wide-connected"></i>&emsp; Launcher & Probes</h1>
+            <h1 class="projectpage-sectiontitle"><i class="bi bi-globe"></i>&emsp; Geographical Data</h1>
+            <p class="bio-text">Each F-16 is equipped with an onboard sensor that tracks its location and orientation during flight, capturing data such as longitude, latitude, roll, pitch, and yaw. After landing, the sensor's hard drive is removed, and the data is securely transferred to a computer for analysis. Interestingly, a unique challenge arose early on: due to the sensitivity of the data, sharing an example required it to be burned onto a CD for secure transfer.</p>
+            <p class="bio-text">To accurately visualize the recorded flight paths, we integrated the Bing Maps API within Unity. This allowed us to map the flight data to precise geographic locations on Earth, providing an immersive and realistic context for the paths. By combining the API’s geospatial capabilities with Unity’s 3D visualization tools, we were able to create a dynamic representation of flight paths grounded in real-world geography.</p>
             <div class="col-md-6">
-                <img src="#" style="width:100%; border-radius: 5px; margin-bottom: 1rem;">
+                <img src="../assets/project_flightdebrief/BingMaps.PNG" style="width:100%; border-radius: 5px; margin-bottom: 1rem;">
             </div>
             <div class="col-md-6">
-                <img src="#" style="width:100%; border-radius: 5px;">
+                <img src="../assets/project_flightdebrief/BarryMGoldwaterMap.png" style="width:100%; border-radius: 5px; margin-bottom: 2rem;">
             </div>
             <div class="col-md-12">
-                <p class="bio-text" style="margin-top: 1rem;">Each probe is equiped with a configurable suite of sensors designed to optimize data collection potential and to survive the harsh lunar environment. The system relays information through a mesh network, with the launcher acting as a "root" node and the probes acting as "leaf" nodes. This allows for the system to act similar to cell towers, where they can relay data through each other as a means of increasing their reach and reliability.</p>
-                <img src="#" alt="Funny GIF" style="border-radius:5px; width:100%;margin-bottom: 1rem;">
-            </div>
+                <video loop controls poster="../assets/project_flightdebrief/Debrief_FlightShortCover.png" style="width:100%; border-radius: 5px; margin-bottom: 1rem;">
+                    <source src="../assets/project_flightdebrief/MixedReality_FlightShort.mp4" type="video/mp4">
+                </video>               </div>
         </div>
         <br><br>
 
@@ -100,18 +105,28 @@
         <!--STORYBOARD-->
 
         <h1 class="projectpage-subtitle">Design Process</h1>
-        <p class="bio-text">UI improvements for the 3D space, annotation+labeling+ video controls tools, Zoom</p>
-
-        <br><br>
-
-        <p class="bio-text">To set the stage, I developed a Unity 3D project using the XR Interaction Toolkit to power the interaction system, ensuring seamless and intuitive VR functionality. To establish a sense of scale within the environment, I incorporated basic test objects for initial exploration. The skybox was custom-designed in Photoshop to accurately depict the vast darkness of space, enhancing the immersive atmosphere. For the lunar surface, I crafted a tileable texture inspired by real lunar imagery and utilized the Terrain Toolkit to sculpt a realistic and detailed landscape, bringing the Moon's surface to life.</p>
-        <div class="row">
-            <div class="content-box">
-                <h1 class="projectpage-sectiontitle"><i class="bi bi-moon"></i>&emsp; Virtual Environment</h1>
-                <img src="../assets/project_velos/First person Velos moon copy.PNG" style="width:100%; border-radius: 5px;">
+        <p class="bio-text">            <p class="bio-text">Introducing a mixed reality solution to the USAF's flight debriefing process required carefully crafting a compelling narrative. The Air Force has relied on established methods for decades, and with the high stakes of their operations, there’s little tolerance for error or unnecessary disruption. I needed to clearly demonstrate how this new technology could seamlessly integrate into their workflow, enhance their ability to analyze missions, and add tangible value without compromising efficiency or accuracy. By emphasizing the benefits of improved 3D visualization and real-time collaboration, I showed how mixed reality could elevate their debriefing process while respecting the precision and reliability they depend on.</p>
+    </p>
+        <div class="row" style="background-color:#252525; padding-left:1rem; padding-right:1rem; padding-top: 1.5rem;padding-bottom: 1.5rem; border-radius: 5px;">
+            <h1 class="projectpage-sectiontitle"><i class="bi bi-columns-gap"></i>&emsp; Storyboard</h1>
+            <div class="col-md-12">
+                <img src="../assets/project_flightdebrief/FlightDebrief_Storyboard2.PNG" style="width:100%; border-radius: 5px; margin-bottom: 1rem;">
+            </div>
+            <div class="col-md-12">
+                <img src="../assets/project_flightdebrief/FlightDebrief_Storyboard1.PNG" style="width:100%; border-radius: 5px;">
             </div>
         </div>
         <br><br>
+
+        <p class="bio-text">I designed an intuitive interface that effectively utilized 3D space, allowing airmen to maintain full control over flight discussions while preserving the ability to see each other's faces and hand gestures. This balance ensured seamless collaboration and natural communication, enhancing the debriefing process without compromising interaction or clarity.</p>
+        <div class="row">
+            <div class="content-box">
+                <h1 class="projectpage-sectiontitle"><i class="bi bi-window-fullscreen"></i>&emsp; User Interface</h1>
+                <video loop controls poster="../assets/project_flightdebrief/MRInterface_cover.png" style="width:100%; border-radius: 5px; margin-bottom: 1rem;">
+                    <source src="../assets/project_flightdebrief/MRInterfaceRecording1.mp4" type="video/mp4">
+                </video>             
+            </div>
+        </div>
        
         <br><br>
         <div class="row">
@@ -120,8 +135,10 @@
 
         <!--FINAL CONTENT-->
         <h1 class="projectpage-subtitle">Final Concept</h1>
-        <p class="bio-text">With the core content complete and a clear user flow established, I focused on refining the experience with interactive elements. Users could explore an exploded view of the probe assembly and engage in a gamified probe launch by aiming at targets. As a final touch, I added an Easter egg honoring Alan Shepard's iconic Apollo 14 moment, providing a memorable conclusion to the experience.</p>
-
+        <p class="bio-text">We concluded with a live demo day where six airmen from Luke Air Force Base tested the multiplayer experience. They experimented with both same-room and remote scenarios, showcasing how the system could simulate debriefings from different locations—a significant potential benefit. With the demo complete, we had everything we needed for our pitch.</p>
+        <video loop controls poster="../assets/project_flightdebrief/FlightDebrief_VideoCover.png" style="width:100%; border-radius: 5px; margin-bottom: 1rem;">
+            <source src="../assets/project_flightdebrief/FlightDebrief_Video1.mp4" type="video/mp4">
+        </video>       
         <br><br>
         <div class="row">
             <hr>
@@ -132,9 +149,8 @@
         <h1 class="projectpage-subtitle">Results</h1>
         <div class="row">
             <div class="content-box">
-                <p class="bio-text">Although my team didn't win first place, we placed as finalists and earned the Forum Award for Innovation, with special recognition for my VR application, which secured us the award.</p>
-                <p class="bio-text">This project left me inspired by VR’s potential beyond entertainment—showing how it can deeply connect people with ideas. Since then, I’ve designed numerous AR/VR experiences, including an internship with NASA.</p>
-                <p class="bio-text">While the VR experience was initially shared on SideQuest, a third-party marketplace for Oculus Quest, it has since been deprecated due to rapid advancements in VR technology. However, you can still watch the <a style="text-decoration:none; color:#5a6af6">full experience on YouTube.</a></p>
+                <p class="bio-text">We were honored to be chosen as finalists to pitch our idea at the Spark Tank event, though we ultimately didn’t take home the win. Looking back, I believe that with today’s advancements in mixed reality technology, our concept would make an even greater impact. At the time, there were significant risks in implementing such a system, but one thing is certain—it left a lasting impression.</p>
+                <p class="bio-text">This project taught me so much: from how to manipulate data for animations and developing with the HoloLens 2, to learning how to pitch a disruptive idea to a niche audience. As mixed reality technology evolves, I’m excited to one day contribute to another groundbreaking project in this space.</p>
             </div>
         </div>
         <br><br>
@@ -156,7 +172,7 @@
                 </a>
             </div>
             <div class="col-8">
-                <a style="text-decoration: none;" class="white-text" href="../projectpages/velos.html">
+                <a style="text-decoration: none;" class="white-text" href="../projectpages/grocerguide.html">
                     <button class="white-text" style="width:100%;">
                         <i class="bi bi-arrow-right"></i>&emsp; Next Project
                     </button>
