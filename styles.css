@@ -250,7 +250,7 @@ button:hover {
     padding-right: 1rem; 
     }
     .dk-profile-img {
-        width: 90px;
+        width: 100px;
     }
     .my-name {
         color: #d4d4d4;
@@ -302,6 +302,9 @@ button:hover {
         padding-left: 1rem;
         padding-right: 1rem; 
     }
+    .dk-profile-img {
+        width: 120px;
+    }
 }
 
 @media (min-width: 992px) { 
@@ -313,6 +316,9 @@ button:hover {
         padding-left: 6rem;
         padding-right: 6rem; 
     }
+    .dk-profile-img {
+        width: 130px;
+    }
 }
 
 @media (min-width: 1200px) { 
@@ -323,6 +329,9 @@ button:hover {
         margin-right: auto;
         padding-left: 10rem;
         padding-right: 10rem; 
+    }
+    .dk-profile-img {
+        width: 130px;
     }
 }
 
@@ -336,7 +345,6 @@ button:hover {
         padding-right: 15rem; 
     }
     .dk-profile-img {
-        width: 100px;
+        width: 130px;
     }
-
 }
